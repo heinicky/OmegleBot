@@ -20,7 +20,7 @@ print(Fore.BLUE)
 message = input("Enter Message: ")
 timer = int(input("Input Timer Between Messages (3 Seconds Recommended): "))
 while True:
-    r = requests.post("https://front22.omegle.com/start?caps=recaptcha2,t&firstevents=1&spid=&randid=J2KRRR6K&topics=%5B%22dreamsmp%22%2C%22tommyinnit%22%2C%22dream%22%2C%22minecraft%22%2C%22fortnite%22%2C%22anime%22%2C%22manga%22%2C%22discord%22%5D&lang=en")
+    r = requests.post("https://front3.omegle.com/start?caps=recaptcha2,t&firstevents=1&spid=&randid=UHTKVMGW&topics=%5B%22dreamsmp%22%2C%22tommyinnit%22%2C%22dream%22%2C%22minecraft%22%2C%22fortnite%22%2C%22anime%22%2C%22gaming%22%2C%22manga%22%2C%22discord%22%2C%22twitter%22%5D&lang=en")
     response = r.json()
     print("id obtained, connecting to a chat")
     print("-----------------------------------")
