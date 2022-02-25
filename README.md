@@ -23,3 +23,8 @@ fortnite
 anime
 manga
 discord
+friends
+furry
+sapnap
+quackity
+gaming
