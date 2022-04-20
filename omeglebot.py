@@ -5,7 +5,7 @@ try:
     import colorama
     import os
     from colorama import Fore
-except ModuleNotFoundError:
+except ModuleNotFoundError as e:
     print("modules were not found, make sure you installed the correct modules")
 except Exception as e:
     print(e)
@@ -51,7 +51,10 @@ if choice == 2:
 if choice == 3:
     url = "https://front36.omegle.com/start?caps=recaptcha2,t&firstevents=1&spid=&randid=XX4XMCHK&topics=%5B"
     while True:
-        tag = input(Fore.CYAN + "Please enter a tag: " + Fore.GREEN)
+        tag = input(Fore.CYAN + "Please enter a tag (No Spaces): " + Fore.GREEN)
+        if " " in tag:
+            print(Fore.RED + "You cannot have spaces in your tag")
+            continue
         if tag == "":
             url = url + "%5D&lang=en"
             url = url.replace("%2C%5D&lang=en", "%5D&lang=en")
@@ -137,7 +140,7 @@ while True:
             print("-----------------------------------")
             connect_to_chat(shard)
         else:
-            print(Fore.RED + "An error occured when getting a shard.")
+            print(Fore.RED + "An error occured when getting a shard. Make sure you set your interests correctly.")
             time.sleep(5)
             exit()
     getid()
