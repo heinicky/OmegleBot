@@ -5,7 +5,7 @@ try:
     import colorama
     import os
     from colorama import Fore
-except ModuleNotFoundError as e:
+except ModuleNotFoundError:
     print("modules were not found, make sure you installed the correct modules")
 except Exception as e:
     print(e)
