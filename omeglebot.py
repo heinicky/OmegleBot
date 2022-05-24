@@ -34,9 +34,6 @@ print("you can change the settings in there")
 print("if the settings are left default, you will be asked to input them each time you run the bot")
 print("So it is up to you to change them.")
 print("------------------------------------------------------")
-print(Fore.GREEN + "Please consider supporting me @ paypal.me/vamponthecord" + Fore.CYAN)
-print("for any questions contact me on discord using the name above.")
-print("------------------------------------------------------")
 choice = int(input(f''' {Fore.BLUE}
 which version would you like to use?
     1: {Fore.CYAN}Discord Tag Only{Fore.BLUE}
