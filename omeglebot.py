@@ -20,7 +20,7 @@ ________                        .__           __________        __
 \_______  /__|_|  /\___  >___  /|____/\___  >  |______  /\____/|__|                     
         \/      \/     \/_____/           \/          \/                                
 
-                        created by hinick#5819
+                        created by hinick#0174
 ''')
 print("If you want to use this program to advertise your server")
 print('Format your invites to not include discord.gg/')
