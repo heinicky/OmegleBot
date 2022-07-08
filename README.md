@@ -1,3 +1,5 @@
+# Notice
+this code is shit and old and custom tags don't even work i think. i will do a complete rewrite sooner or later
 # Omegle Bot
 Simple Yet Effective Omegle Bot That Sends a Message, Disconnects, and Repeats
 ![bot](https://files.catbox.moe/w495ya.png)
